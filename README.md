@@ -1,6 +1,6 @@
-# Dotfiles Collection
+# Setup Guildes Collection
 
-This repository contains my personal dotfiles for various tools to maintain a consistent development environment across machines.
+This repository contains my personal dotfiles and setup file for various tools to maintain a consistent development environment across machines.
 
 ## Description
 
