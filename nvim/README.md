@@ -1,23 +1,31 @@
 # NEOVIM
 
-#### 0. Thao tác mặc định
+#### Shortcuts
 
-- Xem danh sách thao tác: `<leader>`
-- Tìm kiếm file: `<leader><leader>`
+##### File Operations
+- **Formatter**:
+  - `:Format` - Format current file manually
+  - `<leader>cf` - Format current file (Space + c + f)
 
-#### 1. Formattter
+##### Window & Buffer Management
+- `<leader>ww` - Switch between code window and explorer
+- `<leader>bd` - Close buffer (code window)
 
-- **Mặc định:**
-  - nvim sẽ bật chế độ tự format khi lưu (`:w`) khi có file `plugins/formatter`
-  - Có thể tắt bằng cách:
-    ```bash
-    opts = {
-     format_on_save = false, -- ⛔ tắt auto format khi lưu
-     formatters_by_ft = {
-         -- phần khai báo như bạn đã có
-         },
-     }
-    ```
-- **Thủ công**:
-  - Gõ `:Format` để format thủ công
-  - Hoặc dùng phím tắt LazyVim (thường là: `<leader>cf` → `tức là Space + c + f`)
+##### Navigation & Search
+- `gd` - Go to definition
+- `gr` - Find references
+- `/` - Search within file (in normal mode)
+
+##### Neo-tree File Explorer
+- `<leader>e` - Toggle Neo-tree (Space + e)
+- `<leader>E` - Toggle Neo-tree at root directory
+- **Neo-tree Operations** (when Neo-tree is open):
+  - `d` - Delete file/folder
+  - `a` - Add file/folder
+  - `r` - Rename file/folder
+  - `c` - Copy file/folder
+  - `x` - Cut file/folder
+  - `p` - Paste file/folder
+  - `y` - Copy name to clipboard
+  - `Y` - Copy path to clipboard
+  - `?` - Show all shortcuts

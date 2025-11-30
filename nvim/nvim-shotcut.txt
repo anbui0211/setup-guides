@@ -1,0 +1,23 @@
+Những phím tắt hay sử dụng
+- formater:
+  - :formater
+  - <leader>cf
+-  (switch window) Di chuyển từ cửa số code đến explore: <leader>ww
+- đóng buffer (cửa số code): <leader>bd
+- Go to definition: gd
+- Find References: gr
+- Tìm trong file: / (ở chế độ normal)
+
+--- thao tác với 1 file (ở tree)
+<leader>e      -- Toggle Neo-tree (Space + e)
+<leader>E      -- Toggle Neo-tree ở thư mục root
+Khi đã mở Neo-tree:
+d              -- Delete file/folder (xóa)
+a              -- Add file/folder (tạo mới)
+r              -- Rename file/folder (đổi tên)
+c              -- Copy file/folder
+x              -- Cut file/folder
+p              -- Paste file/folder
+y              -- Copy name to clipboard
+Y              -- Copy path to clipboard
+?              -- Hiện tất cả phím tắt
